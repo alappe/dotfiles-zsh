@@ -1,0 +1,4 @@
+zsh
+===
+
+Current zsh configuration.
