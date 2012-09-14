@@ -1,6 +1,6 @@
 # make HOME and END working
-bindkey '\e[1~' end-of-line
-bindkey '\e[4~' beginning-of-line
+bindkey '\eOH' beginning-of-line
+bindkey '\eOF' end-of-line
 
 bindkey '^R' history-incremental-search-backward
 
