@@ -1,4 +1,4 @@
-export TERM=xterm-256color
+[[ ${TERM} != 'screen-256color' ]] && export TERM=xterm-256color
 export EDITOR="/usr/bin/vim"
 export VISUAL="/usr/bin/vim"
 export LC_COLLATE=en_US.UTF-8
