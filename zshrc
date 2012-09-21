@@ -7,6 +7,9 @@ bindkey '^R' history-incremental-search-backward
 watch=(all)
 WATCHFMT='%n %a at %t %w.'
 
+# Load https://github.com/zsh-users/zsh-completions/
+fpath=(/usr/local/share/zsh-completions $fpath)
+
 # turn on full featured completion (minimal needs: zsh3.1)
 autoload -U compinit
 compinit 
