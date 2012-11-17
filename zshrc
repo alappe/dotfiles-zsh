@@ -1,6 +1,8 @@
 # make HOME and END working
 bindkey '\eOH' beginning-of-line
+bindkey "^[[1~" beginning-of-line
 bindkey '\eOF' end-of-line
+bindkey "^[[4~" end-of-line
 
 bindkey '^R' history-incremental-search-backward
 
